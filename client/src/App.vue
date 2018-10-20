@@ -1,8 +1,11 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
-  </div>
+  <!--<div id="app">-->
+    <!--<img src="./assets/logo.png">-->
+    <!--<router-view/>-->
+  <!--</div>-->
+    <v-app id="app">
+        <router-view/>
+    </v-app>
 </template>
 
 <script>
@@ -13,6 +16,7 @@ export default {
 
 <style>
 #app {
+  @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons';
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
